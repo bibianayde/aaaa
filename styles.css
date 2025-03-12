@@ -1,0 +1,59 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe5b4;
+        }
+        header {
+            background-color: #d35400;
+            color: white;
+            padding: 30px;
+        }
+        h1 {
+            font-family: Times New Roman, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: darkred;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        img {
+            max-width: 500px;
+            height: auto;
+        }
+        footer {
+            background-color: #d35400;
+            color: white;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        img-boton {
+            width: 200px; /* Tamaño inicial */
+            transition: all 0.3s ease; /* Transición suave */
+            cursor: pointer; /* Cambia el cursor para indicar que es un botón */
+        }
+
+        /* Estilo cuando el ratón pasa por encima (hover) */
+        .imagen-boton:hover {
+            transform: scale(1.2); /* Aumenta el tamaño de la imagen */
+        }
+    </style>
